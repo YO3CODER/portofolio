@@ -3,6 +3,7 @@ import Title from "./Title"
 import img1 from '../assets/projects/eTrack.png';
 import img2 from '../assets/projects/7 (5).png';
 import img3 from '../assets/projects/7 (6).png';
+import img4 from '../assets/projects/img4.png';
 
 import { Github, ExternalLink } from "lucide-react";
 
@@ -33,7 +34,17 @@ const projects = [
         demoLink: "http://yologo.netlify.app/",
         repoLink: "#",
         image: img3
-    }
+    } , 
+
+    {
+    id: 4,
+    titre: "Plateforme de vente en ligne",
+    description: "Application e-commerce complète avec système de paiement en ligne, gestion des commandes et tableau de bord administrateur.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+    lienDemo: "https://commerce.42web.io/",
+    lienRepo: "#",
+    image: img4
+}
 ];
 
 const Projects = () => {
