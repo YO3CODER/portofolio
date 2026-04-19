@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
-import img from '../assets/MaPhoto.jpg'
+import img from '../assets/MaPhoto.jpeg'
 
 const WhatsAppButton = () => {
     const [position, setPosition] = useState({ x: 20, y: 20 })
