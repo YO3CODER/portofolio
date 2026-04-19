@@ -36,13 +36,13 @@ const projects = [
         image: img3
     } , 
 
-    {
+   {
     id: 4,
-    titre: "Plateforme de vente en ligne",
+    title: "Plateforme de vente en ligne",
     description: "Application e-commerce complète avec système de paiement en ligne, gestion des commandes et tableau de bord administrateur.",
     technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    lienDemo: "https://commerce.42web.io/",
-    lienRepo: "#",
+    demoLink: "https://commerce.42web.io/",
+    repoLink: "#",
     image: img4
 }
 ];
